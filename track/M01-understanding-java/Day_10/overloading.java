@@ -6,6 +6,9 @@ class overloading {
         System.out.println("The sum of numbers are:");
         System.err.println(a.add(10, 20));
         System.err.println(a.add(10, 20.5));
+        
+        // Calling the previously unused add(double, double, int) method
+        System.err.println(a.add(10.5, 20.5, 30));
     }
 }
 
